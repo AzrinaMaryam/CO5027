@@ -1,0 +1,42 @@
+section {
+    padding-bottom: 20px;
+}
+
+form {
+    border: 1px solid #DEDEDE; /*Gainsboro*/
+    width: 450px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FileUpload {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #DEDEDE; /*Gainsboro*/
+    box-sizing: border-box;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background-color: #C51D45; /*Maroon Crayola*/
+    color: #FFFFFF; /*white*/
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+        opacity: 0.85;
+}
+
+.container {
+    padding: 16px;
+}

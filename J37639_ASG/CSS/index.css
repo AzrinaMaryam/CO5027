@@ -1,0 +1,29 @@
+section table{
+	width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+    section table th {
+        font-size: 18px;
+        color: #A6A6A6; /*Quick Silver*/
+        text-align: center;
+    }
+section table td{
+    padding:30px;
+}
+section table td img {
+        width: 70px;
+        height: auto;
+        color: #9F906C; /*Beaver*/
+        margin-left: auto;
+        margin-right: auto;
+}
+section table td img:hover {
+        opacity: 0.85;
+}
+section table tr {
+        width: 200px;
+        text-align:center;
+}

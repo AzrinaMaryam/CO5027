@@ -1,0 +1,26 @@
+section {
+    padding-bottom: 20px;
+}
+form{
+    border:none;
+}
+.gridview {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.validation{
+    margin-left:auto;
+    margin-right:auto;
+}
+.button {
+    width: 65px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity:0.85;
+}
+.upload:hover {
+    opacity: 0.85;
+}

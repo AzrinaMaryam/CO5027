@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="J37639_ASG.Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+	<title>Pillow Talk</title>
+	<link rel="icon" href="~/Images/pillowtalk.ico" type="image/x-icon"/>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!--This CSS file is for the font style
+	retrieved from https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat
+	License: none (public domain) --> 
+
+	<link href="CSS/pillowtalk_static.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="Stylesheet" runat="server">
+    </asp:ContentPlaceHolder> 
+</head>
+<body class="fontstyle" runat="server">
+    <header>
+	    <img src="Images/pillowtalk_logo.png" alt="Pillow Talk logo"/>
+    </header>
+
+    <nav>
+        <asp:ContentPlaceHolder ID="Navigation" runat="server">
+        </asp:ContentPlaceHolder>
+    </nav>
+
+    <h1><asp:ContentPlaceHolder ID="Heading1" runat="server"></asp:ContentPlaceHolder></h1>
+
+    <section>
+        <asp:ContentPlaceHolder ID="Section" runat="server">
+        </asp:ContentPlaceHolder>
+    </section>
+
+    <footer>
+        <figure>
+	        <img src="Images/border.png" alt="border"/>
+        </figure>
+	    <table class="centerTable">
+	        <tr><!-- Top Rows -->
+		        <th>Address</th> <!-- Column1 -->
+		        <th>Opening Hours</th> <!-- Column2 -->
+		        <th>Validate HTML</th> <!-- Column3 -->
+		        <th>Validate CSS</th> <!-- Column4 -->
+	        </tr>
+	        <tr><!-- Row 1 -->
+		        <td>Plaza Abdul Razak</td> <!-- Column1 -->
+		        <td>10:00 AM - 9:00 PM</td> <!-- Column2 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FDefault.aspx">Default</a></td> <!-- Column3 -->
+		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FDefault.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Default</a></td> <!-- Column4 -->
+	        </tr>
+	        <tr><!-- Row 2 -->
+		        <td>Jalan Laksamana Abdul Razak</td> <!-- Column1 -->
+		        <td>Friday Closed</td> <!-- Column2 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FProduct.aspx">Product</a></td> <!-- Column3 -->
+		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FProduct.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Product</a></td> <!-- Column4 -->
+	        </tr>
+	        <tr><!-- Row 3 -->
+		        <td>Km 2 Jln Tutong, BSB</td> <!-- Column1 -->
+		        <td>Sunday Closed</td> <!-- Column2 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FLogin.aspx">Log In</a></td> <!-- Column3 -->
+		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FLogin.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Log In</a></td> <!-- Column4 -->
+	        </tr>
+	        <tr><!-- Row 4 -->
+		        <td>BA 1712, NBD</td> <!-- Column1 -->
+		        <td>Public Holiday Closed</td> <!-- Column2 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FContact.aspx">Contact</a></td> <!-- Column3 -->
+		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FContact.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Contact</a></td> <!-- Column4 -->
+	        </tr>
+	    </table>
+
+	    <p>© 2018 1624962 | J37639 | <a href="Admin/Default.aspx">Admin</a></p>
+    </footer>
+</body>
+</html>

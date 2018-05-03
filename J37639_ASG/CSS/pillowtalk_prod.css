@@ -1,0 +1,17 @@
+section {
+    padding-bottom: 20px;
+    text-align:center;
+}
+form {
+    border:none;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    padding-bottom:20px;
+}
+.detailsview{
+    margin-left:auto;
+    margin-right:auto;
+}
