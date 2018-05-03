@@ -40,7 +40,7 @@
 
     <footer>
         <figure>
-            <img src="../Images/border.png" />
+            <img src="../Images/border.png" alt="border"/>
         </figure>
 	    <table class="centerTable">
 	        <tr><!-- Top Rows -->
@@ -52,25 +52,25 @@
 	        <tr><!-- Row 1 -->
 		        <td>Plaza Abdul Razak</td> <!-- Column1 -->
 		        <td>10:00 AM - 9:00 PM</td> <!-- Column2 -->
-		        <td>Default</td> <!-- Column3 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FDefault.aspx">Default</a></td> <!-- Column3 -->
 		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FDefault.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Default</a></td> <!-- Column4 -->
 	        </tr>
 	        <tr><!-- Row 2 -->
 		        <td>Jalan Laksamana Abdul Razak</td> <!-- Column1 -->
 		        <td>Friday Closed</td> <!-- Column2 -->
-		        <td>Upload</td> <!-- Column3 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FUpload.aspx">Upload</a></td> <!-- Column3 -->
 		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FUpload.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Upload</a></td> <!-- Column4 -->
 	        </tr>
 	        <tr><!-- Row 3 -->
 		        <td>Km 2 Jln Tutong, BSB</td> <!-- Column1 -->
 		        <td>Sunday Closed</td> <!-- Column2 -->
-		        <td>Add</td> <!-- Column3 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FAdd.aspx">Add</a></td> <!-- Column3 -->
 		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FAdd.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Add</a></td> <!-- Column4 -->
 	        </tr>
 	        <tr><!-- Row 4 -->
 		        <td>BA 1712, NBD</td> <!-- Column1 -->
 		        <td>Public Holiday Closed</td> <!-- Column2 -->
-		        <td>Product List</td> <!-- Column3 -->
+		        <td><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FList.aspx">Product List</a></td> <!-- Column3 -->
 		        <td><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1624962.win.studentwebserver.co.uk%2FCO5027%2FAdmin%2FList.aspx&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Product List</a></td> <!-- Column4 -->
 	        </tr>
 	    </table>
