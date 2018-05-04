@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Navigation" runat="server">
     <ul>
 		<li><a href="Default.aspx">Home</a></li>
-		<li><a href="Product.aspx">Shop</a></li>
+		<li><a href="Product.aspx">Product</a></li>
 		<li><a class="active" href="Login.aspx">Log In</a></li>
 		<li><a href="Contact.aspx">Contacts</a></li>
 		<li><a href="ref.aspx">References</a></li>
