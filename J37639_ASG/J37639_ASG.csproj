@@ -115,7 +115,6 @@
     <Content Include="Contact.aspx" />
     <Content Include="CSS\pillowtalk_prod.css" />
     <Content Include="CSS\list.css" />
-    <Content Include="CSS\edit.css" />
     <Content Include="CSS\add.css" />
     <Content Include="CSS\admin_static.css" />
     <Content Include="CSS\index.css" />
@@ -155,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="StyleSheet1.css" />
     <Content Include="Uploads\1.jpg" />
     <Content Include="Uploads\2.jpg" />
     <Content Include="Uploads\3.jpg" />
